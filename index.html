@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Card Test</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<!--<link rel="stylesheet" href="css/jquery-ui.structure.css" />-->
+	<link rel="stylesheet" href="css/jquery-ui.theme.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--<script src="js/pdf/libs/require/require.js"></script>-->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/pdf/jspdf.min.js"></script>
+	<script src="js/pdf/libs/html2canvas/dist/html2canvas.js"></script>
+	<script src="js/pdf/libs/html2pdf.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="playground" class="container">
+		<div class="row">
+			<div class="nine columns">
+
+				<!-- Workspace -->
+				<div id="workspace">
+
+					<div class="resizable element">
+						<div class="image-box">
+							<img src="images/road.jpg" alt="Image">
+						</div>
+					</div>
+
+					<div class="resizable element" >
+						<div class="editable" contenteditable="true">
+							Text Example
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="three columns">
+				使用方式： 可以拖拉，縮放文字與圖片。文字點兩下即可編輯。編輯完成請按下方的 TO PDF 按鈕。
+			</div>
+		</div>
+
+		<div class="row" style="margin-top: 50px">
+			<p>
+				<button type="button" id="to-pdf">To PDF</button>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

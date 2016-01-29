@@ -1,0 +1,48 @@
+* {
+  box-sizing: content-box; }
+
+#workspace {
+  width: 600px;
+  height: 350px;
+  border: 1px solid #333; }
+  #workspace .element {
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px; }
+    #workspace .element:hover {
+      border: 1px solid #999;
+      margin: -1px; }
+    #workspace .element.ui-resizable:hover .ui-resizable-se,
+    #workspace .element.ui-resizable:hover .ui-resizable-sw,
+    #workspace .element.ui-resizable:hover .ui-resizable-ne,
+    #workspace .element.ui-resizable:hover .ui-resizable-nw,
+    #workspace .element.ui-resizable:hover .ui-resizable-n,
+    #workspace .element.ui-resizable:hover .ui-resizable-e,
+    #workspace .element.ui-resizable:hover .ui-resizable-s,
+    #workspace .element.ui-resizable:hover .ui-resizable-w {
+      width: 7px;
+      height: 7px;
+      border: 1px solid #333333;
+      background-color: white; }
+    #workspace .element.ui-resizable:hover .ui-resizable-se {
+      right: -5px;
+      bottom: -5px; }
+    #workspace .element.ui-resizable:hover .ui-resizable-n {
+      left: 50%;
+      margin-left: -3px; }
+    #workspace .element.ui-resizable:hover .ui-resizable-e {
+      top: 50%;
+      margin-top: -3px; }
+    #workspace .element.ui-resizable:hover .ui-resizable-s {
+      left: 50%;
+      margin-left: -3px; }
+    #workspace .element.ui-resizable:hover .ui-resizable-w {
+      top: 50%;
+      margin-top: -3px; }
+    #workspace .element .image-box img {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
