@@ -4,7 +4,8 @@
 #workspace {
   width: 600px;
   height: 350px;
-  border: 1px solid #333; }
+  border: 1px solid #333;
+  background: url(../images/transprant.png) top left; }
   #workspace .element {
     position: absolute;
     cursor: pointer;
